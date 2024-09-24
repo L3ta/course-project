@@ -84,6 +84,8 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
+                    <parallel>none</parallel> <!-- Забороняє паралельне виконання тестів -->
+                    <forkCount>1</forkCount> <!-- Кількість потоків, яку можна використовувати -->
                     <suiteXmlFiles>
                         <suiteXmlFile>src/main/resources/AddCommentTest.xml</suiteXmlFile>
                         <suiteXmlFile>src/main/resources/CloseTaskTest.xml</suiteXmlFile>

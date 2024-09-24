@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class APICreateProject {
 
-    private static final String URL = "http://192.168.1.10:80/jsonrpc.php";
+    private static final String URL = "http://localhost:80/jsonrpc.php";
     private static final String AUTHORIZATION_HEADER = "Basic YWRtaW46YWRtaW4=";
 
     @Test

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI All Tests" verbose="1" parallel="true" thread-count="3">
+    <test name="AddComment Tests">
+        <classes>
+            <class name="AddCommentMain"/>
+        </classes>
+    </test>
+
+    <test name="CreateTaskMain Tests">
+        <classes>
+            <class name="CreateTaskMain"/>
+        </classes>
+    </test>
+
+    <test name="CloseTask Tests">
+        <classes>
+            <class name="CloseTaskMain"/>
+        </classes>
+    </test>
+</suite>

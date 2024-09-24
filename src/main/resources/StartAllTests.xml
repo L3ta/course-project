@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UI All Tests" verbose="1" parallel="true" thread-count="3">
+    <test name="APICreateProject">
+        <classes>
+            <class name="APICreateProject"/>
+        </classes>
+    </test>
+    <test name="APIRemoveProject">
+        <classes>
+            <class name="APIRemoveProject"/>
+        </classes>
+    </test>
+    <test name="APICreateTask">
+        <classes>
+            <class name="APICreateTask"/>
+        </classes>
+    </test>
+    <test name="APICloseTask">
+        <classes>
+            <class name="APICloseTask"/>
+        </classes>
+    </test>
+    <test name="APIcreateUser">
+        <classes>
+            <class name="APIcreateUser"/>
+        </classes>
+    </test>
+    <test name="APIremoveUser">
+        <classes>
+            <class name="APIremoveUser"/>
+        </classes>
+    </test>
+    <test name="UITestAuth">
+        <classes>
+            <class name="UITestAuth"/>
+        </classes>
+    </test>
+    <test name="AddComment Tests">
+        <classes>
+            <class name="AddCommentMain"/>
+        </classes>
+    </test>
+    <test name="CreateTaskMain Tests">
+        <classes>
+            <class name="CreateTaskMain"/>
+        </classes>
+    </test>
+    <test name="CloseTask Tests">
+        <classes>
+            <class name="CloseTaskMain"/>
+        </classes>
+    </test>
+
+
+
+
+
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="allUser's">
+    <test name="APIcreateUser">
+        <classes>
+            <class name="APIcreateUser"/>
+        </classes>
+    </test>
+    <test name="APIremoveUser">
+        <classes>
+            <class name="APIremoveUser"/>
+        </classes>
+    </test>
+</suite>

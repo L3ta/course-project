@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="APITask">
+    <test name="APICreateTask">
+        <classes>
+            <class name="APICreateTask"/>
+        </classes>
+    </test>
+    <test name="APICloseTask">
+        <classes>
+            <class name="APICloseTask"/>
+        </classes>
+    </test>
+</suite>

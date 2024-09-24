@@ -83,7 +83,21 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.0</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/main/resources/AddCommentTest.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/CloseTaskTest.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/CreateTaskTest.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/StartAllTests.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/UITestAuth.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/UiALLTest.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/allProject's.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/allTask's.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/allUser's.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
             </plugin>
+
 
             <!-- Allure Maven Plugin -->
             <plugin>

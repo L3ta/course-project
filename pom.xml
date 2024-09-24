@@ -12,9 +12,11 @@
     <description>A simple Java project to make HTTP requests using Rest Assured</description>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <allure.version>2.21.1</allure.version> <!-- Задайте версію Allure -->
+        <allure.version>2.30.0</allure.version> <!-- Задайте версію Allure -->
     </properties>
 
     <dependencies>
@@ -53,7 +55,7 @@
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>2.29.0</version>
+            <version>2.14.0</version> <!-- Оновлено до 2.30.0 -->
             <scope>test</scope>
         </dependency>
 
@@ -87,7 +89,7 @@
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.14.0</version>
+                <version>2.14.0</version> <!-- Оновлено до 2.30.0 -->
                 <executions>
                     <execution>
                         <id>allure-results</id>

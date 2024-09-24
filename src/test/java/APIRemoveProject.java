@@ -9,7 +9,7 @@ import java.security.SecureRandom;
 
 public class APIRemoveProject {
 
-    private static final String URL = "http://localhost:80/jsonrpc.php";
+    private static final String URL = "http://192.168.1.10:80/jsonrpc.php";
     private static final String AUTHORIZATION_HEADER = "Basic YWRtaW46YWRtaW4=";
     private static final SecureRandom random = new SecureRandom();
 

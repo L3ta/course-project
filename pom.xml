@@ -86,7 +86,10 @@
                 <configuration>
                     <parallel>none</parallel> <!-- Забороняє паралельне виконання тестів -->
                     <forkCount>1</forkCount> <!-- Кількість потоків, яку можна використовувати -->
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/main/resources/CloseTaskTest.xml</suiteXmlFile>
 
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
 

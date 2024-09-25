@@ -31,7 +31,7 @@ public class AddComment {
             driver = new FirefoxDriver(options);
         }
 
-        driver.get("https://192.168.10.173/kanboard"); // Заміни на реальну URL свого Kanboard
+        driver.get("http://localhost/kanboard"); // Заміни на реальну URL свого Kanboard
 
         WebElement loginField = driver.findElement(By.name("username"));
         loginField.clear();

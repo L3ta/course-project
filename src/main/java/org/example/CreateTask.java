@@ -29,7 +29,7 @@ public class CreateTask {
             driver = new FirefoxDriver(options);
         }
 
-        driver.get("https://192.168.10.173"); // Заміни на реальну URL свого Kanboard
+        driver.get("http://localhost"); // Заміни на реальну URL свого Kanboard
 
         WebElement loginField = driver.findElement(By.name("username"));
         loginField.clear();

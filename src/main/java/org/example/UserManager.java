@@ -11,7 +11,7 @@ import java.util.Base64;
 
 public class UserManager {
     private static final SecureRandom random = new SecureRandom();
-    private static final String URL = "https://192.168.10.173/jsonrpc.php";
+    private static final String URL = "http://localhost:80/jsonrpc.php";
     private static final String AUTHORIZATION_HEADER = "Basic YWRtaW46YWRtaW4=";
     private String username;
     private String password;

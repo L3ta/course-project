@@ -7,7 +7,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class ProjectManager {
-    private static final String URL = "http://localhost:80/jsonrpc.php";
+    private static final String URL = "https://192.168.10.173/jsonrpc.php";
     private static final String AUTHORIZATION_HEADER = "Basic YWRtaW46YWRtaW4=";
 
     public String createProject(String ownerId) {

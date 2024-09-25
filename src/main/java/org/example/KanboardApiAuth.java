@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 import java.util.Base64;
 
 public class KanboardApiAuth {
-    private static final String URL = "http://localhost:80/jsonrpc.php";
+    private static final String URL = "https://192.168.10.173/jsonrpc.php";
     private final String authHeader;
 
     public KanboardApiAuth(String username, String password) {

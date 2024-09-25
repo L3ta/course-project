@@ -24,7 +24,7 @@ public class APIcreateUser {
     @Step("Запуск тесту на створення користувача")
     public void createUserTest() {
         // URL API
-        String url = "http://localhost:80/jsonrpc.php";
+        String url = "https://192.168.10.173/jsonrpc.php";
 
         // Генерація випадкових логіна та пароля
         String username = generateRandomString(8);
